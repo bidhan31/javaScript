@@ -52,6 +52,35 @@
  let str3 = str1 + str2
  console.log(str3)
  
+// primitive
+
+// 7 types =  String, num, boolean, null, undifined, symbol, BigInt
+
+const ID = Symbol('345')
+const anotherID = Symbol('345')
+console.log(ID === anotherID)
+
+
+const BigNum = 85585125875554522n
+
+
+//Reference(non-primitive)
+
+// Array, object, functions
+
+const heros = ["saktiman"]
+let myobj ={
+    name: "bormon",
+    age: 24,
+}
+
+const myFunction = Function(){
+    console.log("Hello Bormon")
+}
+
+
+//************************************************
+
 
 
 
