@@ -11,7 +11,6 @@ let userOne = {
 }
 
 let userTwo = userOne
-
-let userTwo.email = "bormon404@gmail.com"
+ userTwo.email = "bormon404@gmail.com"
 console.log (userOne.email )
 console.log(userTwo.email)
