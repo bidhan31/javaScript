@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-// object literals........
-
 
 const JsUser = {
     name: "Bormon",
@@ -11,20 +8,17 @@ const JsUser = {
 
 }
 
-console.log(JsUser["name"])
+console.log(JsUser)
 
-=======
-// object literals........
-
-
-const JsUser = {
-    name: "Bormon",
-    age: 24,
-    Email: "bormon404@gmail.com",
-    isoLoggedIn : false,
-    lastdayLogin : ["monday", "friday"]
+JsUser.greeting = function(){
+    console.log("hello Js")
 
 }
 
-console.log(JsUser["name"])
->>>>>>> refs/remotes/origin/main
+JsUser.greetingtwo = function(){
+    console.log(`hello js, ${this.name}`)
+}
+
+console.log(JsUser.greetingtwo())
+console.log(JsUser.greeting())
+
