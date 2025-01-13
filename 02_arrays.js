@@ -4,7 +4,7 @@ const b = ["voxel", "Jonogon"]
 
 const bc = a.concat(b)
 console.log(bc)
-
+//////
 
 const mg = [...a, ...b]
 console.log(mg)
