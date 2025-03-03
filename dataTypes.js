@@ -5,7 +5,7 @@
  //bigint
  //Strig = ""
  //boolean = true/false 
- //null = standaone value
+ //null = standalone value
  //Undifined 
  //Sambol = unique 
 
@@ -74,9 +74,10 @@ let myobj ={
     age: 24,
 }
 
-const myFunction = Function(){
+const myFunction = Function()
+
     console.log("Hello Bormon")
-}
+
 
 
 //************************************************
