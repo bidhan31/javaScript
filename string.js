@@ -27,3 +27,8 @@ console.log(newStringOne.trim())
 
 const url = "https://bormon.com/bormon30% bidhan"
 console.log(url.replace('%30', '-'))
+
+console.log(url.includes('bormon'));
+console.log(gameName.split('-'));
+
+
