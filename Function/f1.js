@@ -48,3 +48,15 @@ function returnsecondValue(getArray){
 
 }
 console.log(returnsecondValue(myNewArray))
+
+function addtwonum(num1 , num2){
+    //let result = num1 + num2
+    //return result
+    return num1 + num2
+
+    
+}
+//addtwonum(5 ,9)
+ 
+
+
